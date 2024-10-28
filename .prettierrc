@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": "src/config/*.js",
+      "options": {
+        "printWidth": 300
+      }
+    }
+  ]
+}

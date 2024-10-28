@@ -1,0 +1,41 @@
+<svg
+   class="favicon"
+   width="24"
+   height="24"
+   viewBox="0 0 20 20"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   xmlns="http://www.w3.org/2000/svg"
+   color="#d946ef"
+   fill="#fef3c7"
+>
+<style>
+@media (prefers-color-scheme: dark) {
+  .favicon {
+    color: #0ea5e9;
+    fill: #0369a1;
+  }
+  path {
+    color: #e2e8f0;
+  }
+}
+</style>
+  <rect
+     width="18"
+     height="18"
+     x="1"
+     y="1"
+     rx="2"
+     ry="2"
+     stroke="currentColor"
+     />
+  <path
+  stroke="currentColor"
+     d="m 7,15 c 2,0 2.8,-1 2.8,-2.8 V 8 c 0,-2 1,-3.3 3.2,-3"
+     />
+  <path
+  stroke="currentColor"
+     d="m 7,9.2 h 5.7"
+     />
+</svg>
