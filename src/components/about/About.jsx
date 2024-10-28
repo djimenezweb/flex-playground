@@ -11,7 +11,7 @@ const About = () => {
         But... It&apos;s also surprisingly hard to predict!
       </p>
       <p>
-        Why won&apos;t my items grow up? What&apos;s the deal with <code>flex-basis</code>? What&apos;s that <code>flex: 9999</code> hack everyone is talking about? Yes, we all mix up <code>justify-content</code> and <code>align-items</code> from time to time, but are you telling me that there&apos;s also <code>align-content</code>? Is that even a thing?
+        Why won&apos;t my items grow up? What&apos;s the deal with <code>flex-basis</code>? What&apos;s that <code>flex-grow: 9999</code> hack everyone is talking about? Yes, we all mix up <code>justify-content</code> and <code>align-items</code> from time to time, but are you telling me that there&apos;s also <code>align-content</code>? Is that even a thing?
       </p>
       <p>
         The purpose of this website is to allow you to test every (well, <em>almost</em> every) flex property so that you can observe how the different values behave and influence each other.

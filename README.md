@@ -4,7 +4,7 @@ An interactive CSS Flexbox playground made with React, Framer Motion and Vite.
 
 Live demo: https://flex-playground.onrender.com/
 
-[![Screen capture](./readme/flexplayground.png)](https://flex-playground.onrender.com/)
+[![Screen capture](./public/flexplayground.png)](https://flex-playground.onrender.com/)
 
 ## Features
 
