@@ -20,7 +20,6 @@
   --border-radius-xs: 0.125rem;
   --border-radius-sm: 0.25rem;
   --border-radius: 0.5rem;
-  --border-radius-lg: 1rem;
 
   /* SPACER */
   --spacer-px: calc(var(--spacer-1) / 4); /* 1px */
@@ -333,7 +332,9 @@ main {
   height: 100vh;
   height: 100dvh;
   overflow: hidden;
-  display: flex;
+  display: grid;
+  grid-template-columns: min(25rem, 30%) minmax(0, 1fr) min(25rem, 30%);
+  grid-template-rows: calc(100vh - (var(--app-padding) * 2));
   gap: var(--spacer-4);
 }
 
@@ -390,9 +391,8 @@ main {
 /* DISPLAY */
 
 .display {
-  max-height: calc(100% - var(--spacer-20));
-  max-width: 60rem;
   width: 100%;
+  max-height: calc(100% - var(--spacer-20));
   margin-inline: auto;
   align-content: center;
   background-image: repeating-linear-gradient(
@@ -440,8 +440,6 @@ main {
 
 .flex-items-controls,
 .flex-container-controls {
-  flex: none;
-  width: min(25rem, 30%);
   display: flex;
   flex-direction: column;
   position: relative;

@@ -14,21 +14,11 @@ Live demo: https://flex-playground.onrender.com/
 
 ## Usage
 
-Install dependencies:
+Install dependencies, run and build:
 
 ```bash
 npm install
-```
-
-Run:
-
-```bash
 npm run dev
-```
-
-Build:
-
-```bash
 npm run build
 ```
 
